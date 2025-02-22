@@ -19,14 +19,14 @@ body {
   margin-bottom: 2em;
   max-width: 37em;
   overflow-wrap: break-word;
-  background-color: blue;
+  background-color: #0000FF;
 }
 
 
 article {
   background-color:white;
   padding: 1em;
-  border: 5px double blue;
+  border: 5px double #0000FF;
   margin-top:1em;
   margin-bottom:1em;
 }
@@ -34,7 +34,7 @@ article {
 header {
   color: white;
   margin-top: 2em;
-  background-color: blue;
+  background-color: #0000FF;
   padding: 1em;
   text-transform: uppercase;
   text-align: center;
@@ -48,7 +48,7 @@ hr {
 h1 {
   color: white;
   margin-top: 1.5em;
-  background-color: blue;
+  background-color: #0000FF;
   padding: 1em;
   text-transform: uppercase;
   font-weight: bold;
@@ -59,7 +59,7 @@ h2 {
   color: white;
   margin-top: 2em;
   margin-bottom: 1.5em;
-  background-color: blue;
+  background-color: #0000FF;
   padding: 1em;
   text-align: center;
   text-transform: uppercase;
@@ -136,7 +136,7 @@ ul li::before {
   margin-left: 2em;
 }
 
-ul complete li::before {color:blue;}
+ul complete li::before {color:#0000FF;}
 ul wip li::before {color:lightgreen;}
 ul planned li::before {color:red;}
 
@@ -173,7 +173,7 @@ p.dl {
 /*HYPERLINKS*/
 a {
   text-decoration: none;
-  color: blue;
+  color: #0000FF;
 }
 
 h2:hover {
@@ -206,7 +206,7 @@ blockquote::after, blockquote::before, q::after, q::before {
 figure {
   display: flex;
   flex-flow: column;
-  border: 1px solid blue;
+  border: 1px solid #0000FF;
   padding: 0.5em;
   padding-bottom: 0.5em;
   max-height: 30em;
@@ -228,6 +228,7 @@ img {
   max-width: 18em;
   margin: auto;
   margin-top: 0.25em;
+  border: 1px solid #0000FF;
 }
 code {
   font-family: monospace;
@@ -239,7 +240,7 @@ code strong {
   color: orange;
 }
 /* HIGHLIGHT */
-::-moz-selection, ::selection { color: white; background: blue; }
+::-moz-selection, ::selection { color: white; background: #0000FF; }
 a::selection { color: white; background: black; }
 header a::-moz-selection, header a::selection { color: white; background: black; }
 
@@ -279,18 +280,18 @@ ul ul {
 
 /* BORDERS */
 .border {
-  border: 1px solid blue;
+  border: 1px solid #0000FF;
   padding-left: 1em;
 }
 
 .border-bottom {
-  border: 1px solid blue;
+  border: 1px solid #0000FF;
   padding: 1em;
   margin-top: 1em;
 }
 
 .frontpage, .recipe {
-  border: 1px solid blue;
+  border: 1px solid #0000FF;
   padding: 1em;
   max-width: 20em;
   margin: auto;
@@ -307,7 +308,7 @@ ul ul {
 }
 
 hr {
-  color: lightblue;
+  color: light#0000FF;
   size: 1px;
 }
 
@@ -315,7 +316,7 @@ hr {
 div.leftx {
   float: left;
   position: absolute;
-  border: 1px solid blue;
+  border: 1px solid #0000FF;
   padding: 1em;
   margin-top: 1em;
   margin-left: 10%;
@@ -325,7 +326,7 @@ div.rightx {
   float: right;
   position: absolute;
   margin-left: 30%;
-  border: 1px solid blue;
+  border: 1px solid #0000FF;
   padding: 1em;
   margin-top: 1em;
 }
